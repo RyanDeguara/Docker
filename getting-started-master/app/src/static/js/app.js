@@ -98,6 +98,7 @@ function AddItemForm({ onNewItem }) {
                     type="text"
                     placeholder="New Item"
                     aria-describedby="basic-addon1"
+	
                 />
                 <InputGroup.Append>
                     <Button
