@@ -1,0 +1,5 @@
+apt update
+curl --output spark.tgz https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
+apt -y install default-jdk
+tar -xzvf spark.tgz
+./spark-3.3.1-bin-hadoop3/sbin/start-slave.sh spark://varnish-plus-statistics-payg-ubuntu-1-vm.europe-west1-b.c.hardy-mercury-341318.internal:7077
